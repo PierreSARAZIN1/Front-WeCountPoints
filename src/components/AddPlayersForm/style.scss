@@ -1,0 +1,38 @@
+.add-player-component {
+  width: 350px;
+  margin: 20px auto;
+  color: white;
+  border: rgba(253, 253, 253, 0.287) 2px solid;
+  border-radius: 20px;
+  h3 {
+    color: var(--primary);
+    margin: 0;
+    padding: 0;
+  }
+  label {
+    text-align: left;
+    min-width: 49.62px;
+  }
+  input {
+    min-width: 147px;
+  }
+  div {
+    width: 250px;
+    margin: 20px auto;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    button {
+      padding: 5px 7px;
+      border-radius: 10px;
+      background: none;
+      color: var(--primary);
+      border: solid 1.5px var(--primary);
+    }
+    button:hover {
+      color: black;
+      background: var(--primary);
+      cursor: pointer;
+    }
+  }
+}

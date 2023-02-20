@@ -1,0 +1,28 @@
+.display-all-points {
+  height: 200px;
+  width: 80%;
+  border: solid 1px var(--primary);
+  padding: 10px 20px;
+  margin: 0 auto;
+  overflow: auto;
+  text-align: start;
+  span {
+    color: var(--primary);
+  }
+}
+.btn-confirm-points {
+  width: fit-content;
+  margin: 20px auto;
+}
+.btn-confirm-points:hover {
+  cursor: pointer;
+  color: var(--primary);
+}
+
+table {
+  margin: 0 auto;
+  th,
+  td {
+    min-width: 100px;
+  }
+}

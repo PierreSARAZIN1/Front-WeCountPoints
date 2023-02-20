@@ -1,0 +1,31 @@
+.home {
+  width: 100%;
+  text-align: center;
+  .home-head > * {
+    color: var(--primary);
+    margin: 0;
+    padding: 10px;
+  }
+  .index-players {
+    width: 200px;
+    color: var(--primary);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .click-to-launch-match {
+    h3 {
+      width: 150px;
+      color: var(--primary);
+      margin: 20px auto;
+      padding: 5px;
+      border: solid 1px var(--primary);
+      border-radius: 20px;
+    }
+    h3:hover {
+      cursor: pointer;
+      background-color: var(--primary);
+      color: black;
+    }
+  }
+}
