@@ -1,5 +1,5 @@
 # WeCount Points 🎾 - FRONT
-Cette application React JS permet d'interagir avec l'API Ruby On Rails : https://github.com/PierreSARAZIN1/backend-WeCountPoints
+Cette application React JS permet d'interagir avec l'API Ruby On Rails : https://github.com/PierreSARAZIN1/Back-WeCountPoints
 
 L'application front permet d'envoyer les données nécessaires à l'API pour simuler un match de tennis entre deux joueurs :
 - Initialisation des deux joueurs (nom et niveau)
